@@ -91,14 +91,14 @@ const Navbar = () => {
             >
               Projects
             </MobileLink>
-            <MobileLink
+            {/* <MobileLink
               href="#education"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Education
-            </MobileLink>
+            </MobileLink> */}
             <GitHubButton
               style={{
                 padding: "10px 16px",
