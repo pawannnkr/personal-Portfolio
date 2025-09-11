@@ -9,7 +9,7 @@ export const Bio = {
   github: "https://github.com/pawannnkr",
   resume:
     "https://drive.google.com/file/d/1QVCoaAW4usN7fyHFc-KlQW9euD5raMUl/view?usp=drive_link",
-  linkedin: "www.linkedin.com/in/pawan-kumar-a9a22315b/",
+  linkedin: "https://www.linkedin.com/in/pawan-kumar-a9a22315b/",
   twitter: "https://x.com/Pawannnkr",
   insta: "https://www.instagram.com/pawannn_kr/",
   facebook:
