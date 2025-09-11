@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Snackbar, Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@mui/material';
 
 const Container = styled.div`
 display: flex;
@@ -123,9 +123,9 @@ const ContactButton = styled.input`
 
 
 const Contact = () => {
-
   //hooks
   const [open, setOpen] = React.useState(false);
+  const [dialogOpen, setDialogOpen] = React.useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -133,6 +133,7 @@ const Contact = () => {
     emailjs.sendForm('service_jnvzpab', 'template_zwo6hl9', form.current, 'TaKKFlTnaHD1x7QuX')
       .then((result) => {
         setOpen(true);
+        setDialogOpen(true);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
@@ -161,6 +162,15 @@ const Contact = () => {
           message="Email sent successfully!"
           severity="success"
         />
+        <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)}>
+          <DialogTitle>Email Sent</DialogTitle>
+          <DialogContent>
+            Your message has been sent successfully!
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setDialogOpen(false)} color="primary">OK</Button>
+          </DialogActions>
+        </Dialog>
       </Wrapper>
     </Container>
   )
