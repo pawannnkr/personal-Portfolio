@@ -1,14 +1,12 @@
 /node_modules
 /build
 /.pnp
-.package-lock.json
+package-lock.json
 .pnp.js
 .qodo
 # testing
 /coverage
 
-# production
-/build
 
 # misc
 .DS_Store
