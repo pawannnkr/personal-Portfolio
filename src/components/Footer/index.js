@@ -109,7 +109,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2025 Pawan Kumar. All rights reserved.</Copyright>
+        <Copyright>&copy; 2026 Pawan Kumar. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

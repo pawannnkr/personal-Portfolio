@@ -1,5 +1,6 @@
 export const Bio = {
   name: "Pawan Kumar",
+  HeroImg:"https://res.cloudinary.com/dgfff5bfx/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1768543157/IMG_5345_huwlpl.jpg",
   roles: [
     "Python Developer",
     "SDET",
