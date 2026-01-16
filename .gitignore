@@ -2,6 +2,7 @@
 /build
 /.pnp
 package-lock.json
+.env
 .pnp.js
 .qodo
 # testing
