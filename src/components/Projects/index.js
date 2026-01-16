@@ -11,7 +11,7 @@ import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
 
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle] = useState("all");
   return (
     <Container id="projects">
       <Wrapper>

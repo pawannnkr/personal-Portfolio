@@ -83,15 +83,15 @@ const Title = styled.div`
   text-overflow: ellipsis;
 `;
 
-const Date = styled.div`
-  font-size: 12px;
-  margin-left: 2px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_secondary + 80};
-  @media only screen and (max-width: 768px) {
-    font-size: 10px;
-  }
-`;
+// const Date = styled.div`
+//   font-size: 12px;
+//   margin-left: 2px;
+//   font-weight: 400;
+//   color: ${({ theme }) => theme.text_secondary + 80};
+//   @media only screen and (max-width: 768px) {
+//     font-size: 10px;
+//   }
+// `;
 
 const Description = styled.div`
   font-weight: 400;
@@ -105,20 +105,20 @@ const Description = styled.div`
   text-overflow: ellipsis;
 `;
 
-const Members = styled.div`
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-`;
-const Avatar = styled.img`
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  margin-left: -10px;
-  background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid ${({ theme }) => theme.card};
-`;
+// const Members = styled.div`
+//   display: flex;
+//   align-items: center;
+//   padding-left: 10px;
+// `;
+// const Avatar = styled.img`
+//   width: 38px;
+//   height: 38px;
+//   border-radius: 50%;
+//   margin-left: -10px;
+//   background-color: ${({ theme }) => theme.white};
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//   border: 3px solid ${({ theme }) => theme.card};
+// `;
 
 const ProjectCards = ({ project, setOpenModal }) => {
   return (
